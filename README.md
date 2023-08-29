@@ -1,3 +1,9 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "quracik",
+    Text = "Made By quracik",
+    Icon = "rbxassetid://57254792";
+Duration = 5;
+})
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Drag, Qura W Phyt", "DarkTheme")
     -- MAIN
